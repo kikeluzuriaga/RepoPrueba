@@ -1,0 +1,19 @@
+/*header*/
+.header{
+    width: 100%;
+    background-color:rgb(8, 57, 190);;
+    height: 40vh; 
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 15%;
+}
+.titulo{
+    color: #fff;
+    font-size: 3rem;
+}
+.encabezado{
+    font-size: 1.2rem;
+    color: #000;
+    font-weight: bold;
+}

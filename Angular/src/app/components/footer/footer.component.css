@@ -1,0 +1,17 @@
+/*footer*/
+.footer{
+    width: 100%;
+    background-color:#000;;
+    height: 15vh; 
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding-right: 5%;
+   
+}
+.footer p{
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+
+}
