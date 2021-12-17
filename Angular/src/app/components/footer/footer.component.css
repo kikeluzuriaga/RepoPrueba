@@ -4,6 +4,7 @@
     background-color:#000;;
     height: 15vh; 
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: right;
     padding-right: 5%;

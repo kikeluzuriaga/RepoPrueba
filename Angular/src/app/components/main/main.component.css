@@ -9,16 +9,22 @@
     padding: 0 5%;
     width: 100%;
     display: flex;
+    background-color: green;
 }
 
 .onboarding{
     display: flex;
-    width: 90%;
+    width: 75%;
     padding: 0;
+    margin: 0;
+    background-color: yellow;
 }
 .aside{
-    width: 20%;
+    width: 25%;
+    padding: 0;
+    margin: 0;
     text-align: left;
+    background-color: aqua;
 }
 .box{
     width: 100%;
@@ -35,3 +41,30 @@
     padding: 5px;
     font-weight: bold;
 }
+
+.myButton {
+	box-shadow: 0px 0px 0px 2px #9fb4f2;
+	background-color:transparent;
+	border-radius:10px;
+	border:2px solid darkred;
+    /* problema con el borde: cuando haces hover, los demás botones saltan porque estamos añadiendo píxeles. hay una opción para que el borde crezca hacia adentro pero ahora no la recuerdo. investigar esto */
+	display:inline-block;
+	cursor:pointer;
+	color:darkred;
+	font-family:'Readex Pro';
+	font-size:0.8rem;
+    font-weight: 700;
+	padding:5px 10px;
+    margin: 2%;
+	text-decoration:none;
+}
+.myButton:hover {
+	background-color: darkred;
+    border:1px solid whitesmoke;
+    color:whitesmoke;
+}
+/* Quiquue, no borres esto. venía de la web de donde saqué el botón y aún no sé si es útil o no
+ .myButton:active {
+	position:relative;
+	top:1px;
+} */
