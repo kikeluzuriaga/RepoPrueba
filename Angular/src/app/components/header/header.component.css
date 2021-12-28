@@ -1,12 +1,12 @@
 /*header*/
 .header{
     width: 100%;
-    background-color:rgb(8, 57, 190);;
+    background-color:rgb(8, 57, 190);
     height: 40vh; 
     display: flex;
     align-items: center;
     justify-content: left;
-    padding-left: 10%;
+    padding-left: 5%;
 }
 .titulo{
     color: #fff;

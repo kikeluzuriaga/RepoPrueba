@@ -1,0 +1,89 @@
+
+/* styles for the titles */
+.titles{
+    margin: 3% 0% 1% 0%;
+    padding: 0% 5%;
+    width: 100%;
+    display: flex;
+}
+.onboardingTitle{
+    width: 75%;
+}
+.relatedSkillsTitle{
+    width: 25%;
+}
+
+/* end of styles for titles */
+
+.seccion{
+    padding: 0 5%;
+    width: 100%;
+    display: flex;
+
+}
+
+.onboarding{
+    display: flex;
+    width: 75%;
+    padding: 0;
+    margin: 0;
+
+    
+}
+.aside{
+    width: 25%;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    
+}
+.box{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 40px 10px 0px;
+
+}
+.video img{
+    width: 100%;
+
+}
+.texto p {
+    text-align: justify;
+    padding: 5px 0px;
+    font-weight: bold;
+    max-width: 100%;
+}
+
+
+
+/* checkbox styles */
+.checkStyles{
+    font-family: 'Readex Pro';
+    font-weight: bold;
+}
+/* end of chechbox styles */
+
+
+
+/*button-like styles for the skills*/
+.myButton {
+	background-color:transparent;
+	border-radius:10px;
+	border:2px solid darkred;
+	display:inline-block;
+	cursor:pointer;
+	color:darkred;
+	font-family:'Readex Pro';
+	font-size:0.8rem;
+    font-weight: 700;
+	padding:5px 10px;
+    margin: 2% 2% 2% 0%;
+	text-decoration:none;
+}
+.myButton:hover {
+	background-color: darkred;
+    border:2px solid whitesmoke;
+    color:whitesmoke;
+}
+/*end of skills styling*/
