@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Video, VideosService } from 'src/app/services/videos.service';
 
 @Component({
   selector: 'app-section',
@@ -6,8 +7,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./section.component.css']
 })
 export class SectionComponent implements OnInit {
+  arrayVideos: Video[];
 
-  constructor() { }
+  constructor(
+    private VideosService: VideosService
+  ) {
+    this.arrayVideos = [];
+  }
 
   ngOnInit(): void {
   }
