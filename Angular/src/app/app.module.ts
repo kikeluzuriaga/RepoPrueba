@@ -12,6 +12,7 @@ import { MatInputModule } from '@angular/material/input';
 import { MatButtonModule } from '@angular/material/button';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import { SectionComponent } from './components/section/section.component';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { SectionComponent } from './components/section/section.component';
     BrowserModule,
     BrowserAnimationsModule,
     FormsModule,
+    HttpClientModule,
     MatInputModule,
     MatButtonModule,
     MatCheckboxModule,

@@ -1,3 +1,4 @@
+import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 
 export interface Video {
@@ -12,6 +13,17 @@ export interface Video {
 
 
 export class VideosService {
+  private baseUrl: string;
 
-  constructor() { }
+
+  constructor(private httpClient: HttpClient) {
+    this.baseUrl = "http://localhost:3000/api/videos";
+
+  }
+
+
+
+
+
+
 }
