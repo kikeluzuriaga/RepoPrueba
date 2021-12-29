@@ -16,7 +16,7 @@ export class SectionComponent implements OnInit {
   }
 
   ngOnInit(): void {
-
+    //necesitamos reecuperar todos los vídeos y skills pero las promesas que he intentado no han funcionado bien
 
 
 

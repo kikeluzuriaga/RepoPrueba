@@ -13,6 +13,24 @@
 
         <!-- 
         en este punto hay que incluir un ngFor para generar las cajas con los distintos vídeos -->
+
+        <!-- <div class="box" *ngFor="let video of arrayVideos">
+            <div class="video">
+                <img src="" alt="Onboarding Video"> AQUI PONDREMOS IMG FIJA O LINK AL VÍDEO? MIRAR ESTO
+            </div>
+            <div class="texto">
+                <p>{{video.videoName}}</p>
+                <p>{{video.videoDescription}}</p>
+                <div>
+                    <mat-checkbox class="checkStyles">Done!</mat-checkbox>
+                </div>
+            </div>
+        </div> -->
+
+
+
+
+
         <div class="box">
             <div class="video">
                 <img src="data:image/png;base64,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"
@@ -75,6 +93,11 @@
 
     <div class="aside">
         <!-- en estee punto hay que incluir un ngFor para autogenerar la lista de skills  -->
+        <!-- <a href="#" class="myButton" *ngFor="let skill of arraySkills">{{skill.skillName}}</a> 
+        PARA ESTE array HAY QUE CREEAR UN NUEVO SERVICIO PARA SKILLS, LA INTEERFAZ DE SKILL Y REECUPERAR LAS SKILLS-->
+
+
+
         <a href="#" class="myButton">Configuration 1st check</a>
         <a href="#" class="myButton">Configuration 2nd check</a>
         <a href="#" class="myButton">Stop program</a>
